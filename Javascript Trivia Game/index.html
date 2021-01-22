@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=EDGE">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?Roboto:wght@500&family=Bangers&family=Varela+Round&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1 class="title">Trivia Game</h1>
+            <button class="start-btn " id="start-quiz">&#x022B3;</button>
+            <div class="quiz-container hide" id="quizContainer">
+                <div class="question-title">You have reached the end of the quiz :)</div> 
+                <div class="question-answers">
+                <!--        <button class="alternatives">Answer 1</button>
+                        <button class="alternatives">Answer 2</button>
+                        <button class="alternatives">Answer 3</button>
+                        <button class="alternatives">Answer 4</button> -->
+                </div>   
+                <div class="score" id="userScore"></div>
+                <button class="try-again-btn hide" id="newGame"></button>
+            </div>   
+        </div>
+    </main>
+    <footer>
+        <script defer type="text/javascript" src="js/quiz.js"></script>
+        <script defer type="text/javascript" src="js/getQuestions.js"></script>
+    </footer>
+</body>
+</html>
