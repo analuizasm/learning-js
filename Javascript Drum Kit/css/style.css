@@ -1,0 +1,63 @@
+*, *:active, *:hover{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    background: url('../img/background.jpg') no-repeat; /*Image by musikschule from Pixabay*/
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.keys{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.key{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 9.5%;
+    text-align: center;
+    padding: 40px 20px 40px 20px;
+    background: rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.2);
+    transition: 0.07s;
+}
+
+.playing{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 10%;
+    text-align: center;
+    padding: 50px 20px 50px 20px;
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 3px solid rgba(209, 115, 7, 0.5);
+}
+
+.playing kbd{
+    font-size: 40px;
+}
+
+kbd{
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px rgba(0,0,0,1);
+}
+
+.sound{
+    font-size: 12px;
+    text-shadow: 1px 1px rgb(179, 102, 2);
+}
