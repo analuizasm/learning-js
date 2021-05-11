@@ -6,6 +6,6 @@ This is my first Javascript project! It's a question and answer game made using 
 
 # [Javascript Drum Kit](https://github.com/analuizasm/learning-js/tree/master/Javascript%20Drum%20Kit)
 I've found this project on the [30 day Vanilla Javascript Codding Challenge](https://javascript30.com/) by Wes Bos.
-The first challenge consists of a page that plays a different drum sound according to the key you press. <br /> It was also a great experience to improve my CSS skills, so I think I'll try to complete the next challenges too! <br />
+The first challenge consists of a page that plays a different drum sound according to the key you press. <br /> It was also a great experience to improve my CSS skills!<br />
 P.S: Background image by musikschule from Pixabay.
 
