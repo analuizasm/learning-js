@@ -1,4 +1,4 @@
-# learning-js
+# learning-js :green_book:
 A collection of simple javascript projects that I'm doing while I'm still learning to master the language. 
 
 # [Javascript Trivia Game](https://github.com/analuizasm/learning-js/tree/master/Javascript%20Trivia%20Game) :space_invader:
